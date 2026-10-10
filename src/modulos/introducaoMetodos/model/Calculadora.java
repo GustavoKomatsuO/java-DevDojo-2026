@@ -34,14 +34,16 @@ public class Calculadora {
     }
 
     public void multiplicacaoDoisNum(int num1, int num2){
-        Scanner scanner = new Scanner(System.in);
         int mult = num1 * num2;
         System.out.printf("%d * %d = %d",num1,num2, mult);
     }
 
     //metodo profissional:
     public double divisaoDoisNum(double num1, double num2){
-
-        return 0;
+        if (num2 == 0){
+            return 0;
+        } else if (num1 == 67 || num2 == 67) {
+            return 676776676.676767;        }
+        return num1/num2;
     }
 }
