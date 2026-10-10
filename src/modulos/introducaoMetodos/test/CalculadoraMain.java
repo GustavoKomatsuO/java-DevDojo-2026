@@ -4,7 +4,7 @@ import modulos.introducaoMetodos.model.Calculadora;
 
 import java.util.Scanner;
 
-public class CalculadoraTest01 {
+public class CalculadoraMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

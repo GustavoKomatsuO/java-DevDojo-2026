@@ -40,7 +40,8 @@ public class Calculadora {
     }
 
     //metodo profissional:
-    public double divisaoDoisNum(){
+    public double divisaoDoisNum(double num1, double num2){
+
         return 0;
     }
 }
