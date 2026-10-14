@@ -1,6 +1,6 @@
 package modulos.introducaoClasses.model;
 
-public class Estudante {
+public class  Estudante {
     public String nome;
     public int idade;
     public char sexo;
