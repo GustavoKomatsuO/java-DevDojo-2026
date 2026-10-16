@@ -1,11 +1,11 @@
-package modulos.introducaoMetodos.test;
+package modulos.introducaoMetodos.test.Estudante;
 
 import modulos.introducaoMetodos.model.Estudante;
 import modulos.introducaoMetodos.model.PrintEstudante;
 
 import java.util.Scanner;
 
-public class EstudanteTest {
+public class EstudanteTest02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Estudante estudante01 = new Estudante();
@@ -23,9 +23,10 @@ public class EstudanteTest {
         estudante02.idade = scanner.nextInt();
         estudante02.sexo = scanner.next().charAt(0);
 
-        System.out.println("\n");
+        imprimir.print(estudante01);
+        imprimir.print(estudante02);
+
         estudante01.imprime();
-        System.out.println("***********");
         estudante02.imprime();
 
     }

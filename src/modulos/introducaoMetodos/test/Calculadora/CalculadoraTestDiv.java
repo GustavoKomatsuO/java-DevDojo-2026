@@ -1,4 +1,4 @@
-package modulos.introducaoMetodos.test;
+package modulos.introducaoMetodos.test.Calculadora;
 import modulos.introducaoMetodos.model.Calculadora;
 
 public class CalculadoraTestDiv {
