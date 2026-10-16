@@ -17,13 +17,16 @@ public class EstudanteTest {
         estudante01.nome = scanner.nextLine();
         estudante01.idade = scanner.nextInt();
         estudante01.sexo = scanner.next().charAt(0);
+        scanner.nextLine();
         System.out.println("-----------------------");
-        estudante01.nome = scanner.nextLine();
-        estudante01.idade = scanner.nextInt();
-        estudante01.sexo = scanner.next().charAt(0);
+        estudante02.nome = scanner.nextLine();
+        estudante02.idade = scanner.nextInt();
+        estudante02.sexo = scanner.next().charAt(0);
 
-        imprimir.print(estudante01);
-        imprimir.print(estudante02);
+        System.out.println("\n");
+        estudante01.imprime();
+        System.out.println("***********");
+        estudante02.imprime();
 
     }
 }
