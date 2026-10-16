@@ -18,7 +18,7 @@ public class Funcionario {
         for (double num : salario){
             soma += num;
         }
-        double media = soma / 3;
+        double media = soma / salario.length;
         System.out.println(media);
     }
 }
