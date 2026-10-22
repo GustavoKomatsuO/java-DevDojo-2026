@@ -29,8 +29,14 @@ Exercícios e experimentos em Java, organizados em `src/modulos/`:
 | [`introducaoBasicoExercicios`](src/modulos/introducaoBasicoExercicios) | Condicionais, laços e exercícios de lógica |
 | [`introducaoClasses`](src/modulos/introducaoClasses) | Classes, objetos, atributos e instanciação |
 | [`introducaoMetodos`](src/modulos/introducaoMetodos) | Métodos, parâmetros, retorno, `this`, arrays, varargs e encapsulamento |
+| [`sobrecargaMetodos`](src/modulos/sobrecargaMetodos) | Sobrecarga de métodos e reutilização da inicialização com diferentes parâmetros |
+| [`construtores`](src/modulos/construtores) | Inicialização de objetos, sobrecarga de construtores e encadeamento com `this(...)` |
+| [`blocosDeInicializacao`](src/modulos/blocosDeInicializacao) | Blocos de inicialização de instância e preparação de atributos antes do corpo do construtor |
+| [`modificadorEstatico`](src/modulos/modificadorEstatico) | Atributos e métodos `static`, estado compartilhado entre instâncias e blocos estáticos |
 
 Nos exercícios de métodos há exemplos com `Calculadora`, `Estudante`, `Pessoa` e `Funcionario`, incluindo passagem de argumentos, getters/setters e cálculo de média salarial.
+
+Os módulos de sobrecarga, construtores e inicialização utilizam a classe `Anime`. O módulo de modificadores estáticos também inclui `Carro`, demonstrando a diferença entre atributos de cada objeto e valores compartilhados pela classe.
 
 obs: Depois vou atualizando enquanto o estudo progride.
 
